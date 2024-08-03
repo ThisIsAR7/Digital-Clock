@@ -1,30 +1,76 @@
-# Animated-Clock
+# Digital Clock
 
-A visually engaging and dynamic clock using HTML, CSS, and JavaScript.
+This is a stylish and interactive world clock web application designed and developed by [AR7](https://ar123456.netlify.app). It displays the current time in hours, minutes, and seconds with an elegant circular graphical interface.
 
-## Description
+## Table of Contents
 
-AnimatedClock is a creative project that showcases a real-time, animated clock. This clock uses SVG graphics and CSS animations to represent hours, minutes, and seconds through smoothly moving circles. Each circle is color-coded for easy distinction and rotates seamlessly to indicate the passage of time.
-
-The clock provides an elegant and modern interface, perfect for use in websites, dashboards, or as a standalone timekeeping application. The project demonstrates the effective use of web technologies to create interactive and visually appealing components.
-
-## Features
-
-- Real-time clock updates
-- Smooth animations for hours, minutes, and seconds
-- Color-coded circles for easy time reading
-- Responsive design that adapts to different screen sizes
-- Simple and clean user interface
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Demo
 
-You can view a live demo [here]().
+You can see the live demo of the world clock [here]().
+
+## Features
+
+- Displays current time in hours, minutes, and seconds
+- AM/PM indicator
+- Circular graphical representation of time
+- Responsive design
 
 ## Installation
 
-To run this project locally, follow these steps:
+To use this world clock locally, follow these steps:
 
 1. Clone the repository:
+    ```sh
+    git clone https://github.com/ItIsAR7/Digital-Clock.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Digital-Clock-main
+    ```
 
-```bash
-git clone https://github.com/ItIsAR7/Animated-Clock.git
+## Usage
+
+Open the `index.html` file in your preferred web browser to see the world clock in action.
+
+### Project Structure
+
+- **HTML**: The structure of the world clock
+- **CSS**: Styling for the world clock, located in `css/style.css`
+- **JavaScript**: Time functionality, located in `js/script.js`
+
+### Example
+
+The world clock includes a circular graphical interface for displaying the time. The `hours`, `minutes`, and `seconds` are shown in separate circles with different colors.
+
+```html
+<div id="time">
+    <div class="circle" style="--clr:#FD5D5D">
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="hours">00</div>
+    </div>
+    <div class="circle" style="--clr:#00A9FF">
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutes">00</div>
+    </div>
+    <div class="circle" style="--clr:#FFBB64">
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="seconds">00</div>
+    </div>
+    <div class="ap">
+        <div id="ampm">AM</div>
+    </div>
+</div>
