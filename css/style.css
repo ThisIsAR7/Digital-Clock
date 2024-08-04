@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -14,15 +15,16 @@ body {
     background: #111;
     color: #fff;
     margin: 0;
-    font-family: Arial, sans-serif;
     flex-direction: column;
 }
+
 #container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 #time {
     display: flex;
     gap: 40px;
@@ -30,27 +32,30 @@ body {
 }
 
 #time .circle {
-    position:relative;
+    position: relative;
     width: 150px;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #time .circle svg {
     position: relative;
     width: 150px;
     height: 150px;
     transform: rotate(270deg);
 }
+
 #time .circle svg circle {
     width: 100%;
     height: 100%;
     fill: transparent;
     stroke: #575757;
     stroke-width: 4;
-    transform: translate(5px,5px);
+    transform: translate(5px, 5px);
 }
+
 #time .circle svg circle:nth-child(2) {
     stroke: var(--clr);
     stroke-dasharray: 440;
@@ -62,6 +67,7 @@ body {
     font-weight: 500;
     font-size: 1.5em;
 }
+
 #time div span {
     position: absolute;
     transform: translateX(-50%) translateY(-10px);
@@ -78,26 +84,28 @@ body {
 }
 
 #additional-text {
-    position: absolute;
-    top: 450px;
     margin-top: 40px;
     font-size: 1.2em;
     font-weight: 300;
     color: #fff;
+    text-align: center;
 }
-#additional-text a{
-    margin-top: 40px;
-    font-size: 1.2em;
+
+#additional-text a {
+    color: #00A9FF; /* Optional: تغییر رنگ لینک برای هماهنگی با تم */
     text-decoration: none;
-    font-weight: 300;
-    color: #fff;
-    transition: all 0.75s ease-in-out;
-
+    font-weight: 500;
 }
 
-#additional-text a:hover {
-    color: #00A9FF; /* Optional: change the link color to match the clock theme */
-    text-decoration: underline;
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
+/* Media Query برای صفحه‌های کوچک */
+@media (max-width: 768px) {
+    #time {
+        flex-direction: column;
+        gap: 20px; /* کاهش فاصله بین ساعت‌ها */
+    }
+
+    #additional-text {
+        margin-top: 20px;
+        font-size: 1em; /* تنظیم اندازه فونت برای صفحه‌های کوچک */
+    }
 }
