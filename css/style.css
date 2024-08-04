@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sana-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     display: flex;
@@ -85,15 +85,19 @@ body {
     font-weight: 300;
     color: #fff;
 }
-a {
-    color: #ffffff;
-    text-decoration: unset;
+#additional-text a{
+    margin-top: 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
     transition: all 0.75s ease-in-out;
-  }
-  
-a:hover {
-    color: #888888;
+
+}
+
+#additional-text a:hover {
+    color: #00A9FF; /* Optional: change the link color to match the clock theme */
     text-decoration: underline;
+    font-weight: 300;
     transition: all 0.5s ease-in-out;
 }
-  
