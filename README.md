@@ -1,6 +1,6 @@
 # Digital Clock
 
-This is a stylish and interactive world clock web application designed and developed by [AR7](https://ar123456.netlify.app). It displays the current time in hours, minutes, and seconds with an elegant circular graphical interface.
+This is a stylish and interactive world clock web application designed and developed by [AR7](https://arvinrezaei.com/). It displays the current time in hours, minutes, and seconds with an elegant circular graphical interface.
 
 ## Table of Contents
 
