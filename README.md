@@ -11,7 +11,7 @@ This is a stylish and interactive world clock web application designed and devel
 
 ## Demo
 
-You can see the live demo of the world clock [here](https://digitalclock-ar7.netlify.app).
+To see a live demo of the hoverboard, open the `index.html` file in a web browser. You will see a grid of squares that change color and glow when you hover over them.
 
 ## Features
 
