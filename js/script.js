@@ -8,7 +8,10 @@ setInterval(() => {
     let mm = document.getElementById('mm');
     let ss = document.getElementById('ss');
 
-    
+    let h = new Date().getHours();
+    let m = new Date().getMinutes();
+    let s = new Date().getSeconds();
+    let am = h >= 12 ? "PM" : "AM";
 
     if (h > 12) {
         h = h - 12;
