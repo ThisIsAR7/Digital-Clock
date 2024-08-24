@@ -24,7 +24,7 @@ To see a live demo of the hoverboard, open the `index.html` file in a web browse
 
 To use this world clock locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the :
     ```sh
     git clone https://github.com/ThisIsAR7/Digital-Clock.git
     ```
