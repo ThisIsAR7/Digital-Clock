@@ -97,7 +97,6 @@ body {
     font-weight: 500;
 }
 
-/* Media Query برای صفحه‌های کوچک */
 @media (max-width: 768px) {
     #time {
         flex-direction: column;
