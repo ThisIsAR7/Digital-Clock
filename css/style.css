@@ -100,7 +100,7 @@ body {
 @media (max-width: 768px) {
     #time {
         flex-direction: column;
-        gap: 20px; /* کاهش فاصله بین ساعت‌ها */
+        gap: 20px;
     }
 
     #additional-text {
