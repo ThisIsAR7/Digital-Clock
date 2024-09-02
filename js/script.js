@@ -13,7 +13,6 @@ setInterval(() => {
     let s = new Date().getSeconds();
     let am = h >= 12 ? "PM" : "AM";
 
-    if (h > 12) {
         h = h - 12;
     }
 
