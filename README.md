@@ -22,7 +22,7 @@ To see a live demo of the hoverboard, open the `index.html` file in a web browse
 
 ## Installation
 
-To use this world clock locally, follow these steps:
+
 
 1. Clone the repository:
     ```sh
